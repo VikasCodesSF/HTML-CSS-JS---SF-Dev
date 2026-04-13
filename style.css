@@ -1,0 +1,46 @@
+/* CSS stands for Cascading Style Sheets. CSS is used to control the style of a web page
+
+CSS Syntax
+selector { property: value }
+
+Selector - It is used to "find" the HTML element
+Property - CSS property you want to apply like color, border etc
+Value - It's the value assigned to property like for color property value is red */
+
+/* CSS Selectors
+
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+Element Selector - use of html tags for styling
+p{ color: blue;}
+
+ID selector - uses the id attribute of an HTML element to select a specific element. 
+To select an element with a specific id, write a hash (#) character, followed by the id of the element. The id of an element should be unique within a page
+#username{ color: red;}
+
+Class selector - uses the class attribute of an HTML element to select a specific element. To select an element with a specific class, write a dot(.) character, 
+followed by the class of the element.
+.username{ color: blue;} */
+
+/* 
+Type of CSS styles
+There are Three types of CSS styles
+
+Internal CSS - Not used in LWC
+Inline CSS  - Maximum peferance
+External CSS or Third party library - Bootstrap, salesforce lightning design system
+for example: <p class="slds-text-title_caps">This text will be uppercase</p>
+ */
+
+div{
+    color: blueviolet;
+}
+
+#username{
+    font-size: large;
+    color: aqua;
+    font-style: italic;
+}
+
+.para{
+    border: 5px solid yellowgreen;
+}
